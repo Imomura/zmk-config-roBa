@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                       &kp LC(LEFT)          &kp LC(RIGHT)         &kp LG(LC(TAB))  &kp LG(DOWN)  &trans
-&kp HOME        &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &kp F3  &kp K_VOLUME_DOWN     &kp C_VOL_UP          &kp K_MUTE       &trans        &trans
-&kp LEFT_SHIFT  &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRI_MIN    &trans        &trans
-&trans          &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans  &trans                                                                     &trans
+&kp ESCAPE  &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                             &kp K_VOLUME_DOWN     &kp C_VOLUME_UP       &kp K_MUTE   &trans              &trans
+&kp HOME    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &kp LC(LEFT)  &kp LC(UP_ARROW)      &kp LC(RIGHT)         &kp LG(TAB)  &kp LC(DOWN_ARROW)  &trans
+&trans      &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans       &trans              &trans
+&trans      &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans        &trans                                                                       &trans
             >;
         };
 
@@ -153,7 +153,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
         };
     };
 };
