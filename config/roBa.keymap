@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E         &kp R                        &kp T                                                 &kp Y                         &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S      &kp D         &kp F                        &kp G        &lt 7 C_BRI_MIN           &kp COLON      &kp H                         &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V                        &kp B        &kp LEFT_COMMAND          &kp SEMICOLON  &kp N                         &kp M  &kp COMMA  &kp DOT  &kp C_VOICE_COMMAND
-&kp TAB           &kp LCTRL  &kp LEFT_ALT  &mt LEFT_GUI LS(LANGUAGE_2)  &lt 1 SPACE  &lt_to_layer_0 2 RET      &lt 3 DELETE   &mt RIGHT_COMMAND LANGUAGE_1                             &to 6
+&kp Q             &kp W      &kp E         &kp R             &kp T                                                         &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S      &kp D         &kp F             &kp G        &lt 7 C_BRI_MIN           &kp COLON              &kp H             &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B        &kp LEFT_COMMAND          &kp SEMICOLON          &kp N             &kp M  &kp COMMA  &kp DOT  &kp C_VOICE_COMMAND
+&kp TAB           &kp LCTRL  &kp LEFT_ALT  &lt 5 LANGUAGE_2  &lt 1 SPACE  &lt_to_layer_0 2 RET      &mt RIGHT_COMMAND DEL  &lt 3 LANGUAGE_1                             &kp QUESTION
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                             &kp K_VOLUME_DOWN     &kp C_VOLUME_UP       &kp K_MUTE   &trans              &trans
-&kp HOME    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &kp LC(LEFT)  &kp LC(UP_ARROW)      &kp LC(RIGHT)         &kp LG(TAB)  &kp LC(DOWN_ARROW)  &trans
-&trans      &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans       &trans              &trans
-&trans      &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans        &trans                                                                       &trans
+&kp ESCAPE  &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                       &trans        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp K_MUTE   &trans
+&kp HOME    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &trans  &kp LC(LEFT)  &kp LC(UP_ARROW)      &kp LC(RIGHT)    &kp LG(TAB)  &kp LC(DOWN)
+&trans      &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans  &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &trans       &trans
+&trans      &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans  &trans                                                            &trans
             >;
         };
 
