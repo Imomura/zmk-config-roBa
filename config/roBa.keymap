@@ -114,6 +114,8 @@
 &trans      &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans  &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &trans       &trans
 &trans      &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans  &trans                                                            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
         };
 
         MOUSE {
