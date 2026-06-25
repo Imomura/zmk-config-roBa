@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                       &trans        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp K_MUTE   &trans
-&kp HOME    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &trans  &kp LC(LEFT)  &kp LC(UP_ARROW)      &kp LC(RIGHT)    &kp LG(TAB)  &kp LC(DOWN)
-&trans      &kp LG(LEFT_BRACKET)  &kp LG(EQUAL)   &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans  &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &trans       &trans
-&trans      &trans                &kp LG(MINUS)   &trans                 &trans   &trans      &trans  &trans                                                            &trans
+&kp ESCAPE          &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                                   &trans        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp K_MUTE   &trans
+&kp LG(LEFT_BRACE)  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_BRACE)  &trans      &trans  &kp LC(LEFT)  &kp LC(UP_ARROW)      &kp LC(RIGHT)    &kp LG(TAB)  &kp LC(DOWN)
+&trans              &kp END          &kp LG(EQUAL)   &kp HOME         &trans               &trans      &trans  &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &trans       &trans
+&trans              &trans           &kp LG(MINUS)   &trans           &trans               &trans      &trans  &trans                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
