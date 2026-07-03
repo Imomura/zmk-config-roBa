@@ -81,9 +81,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W      &kp E         &kp R        &kp T                                                                      &kp Y        &kp U  &mt LEFT_GUI I  &mt LEFT_GUI O  &lt 5 P
-&mt LEFT_GUI A    &kp S      &kp D         &kp F        &kp G             &lt 7 C_BRI_MIN                       &kp MINUS          &kp H        &kp J  &kp K           &kp L           &mt RIGHT_GUI ENTER
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V        &kp B             &mt LEFT_COMMAND C_VOICE_COMMAND      &kp SEMICOLON      &kp N        &kp M  &kp COMMA       &kp DOT         &mt RIGHT_SHIFT RS(EXCLAMATION)
-&kp TAB           &kp LCTRL  &kp LEFT_ALT  &lt 5 LANG1  &lt 1 LANGUAGE_2  &lt_to_layer_0 2 SPACE                &mt DELETE DELETE  &lt 3 SPACE                                         &kp QUESTION
+&mt LEFT_GUI A    &kp S      &kp D         &kp F        &kp G             &lt 7 C_BRI_MIN                       &kp QUESTION       &kp H        &kp J  &kp K           &kp L           &mt RIGHT_GUI ENTER
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V        &kp B             &mt LEFT_COMMAND C_VOICE_COMMAND      &kp EXCLAMATION    &kp N        &kp M  &kp COMMA       &kp DOT         &mt RIGHT_SHIFT RS(COLON)
+&kp TAB           &kp LCTRL  &kp LEFT_ALT  &lt 5 LANG1  &lt 1 LANGUAGE_2  &lt_to_layer_0 2 SPACE                &mt DELETE DELETE  &lt 3 SPACE                                         &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp LS(RIGHT_ARROW) LS(LEFT_ARROW)>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LS(LG(N5))  &trans      &trans       &trans      &trans  &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH
-&trans                &trans                &trans          &trans      &trans       &trans      &trans  &trans     &trans         &trans            &trans                &trans
-&kp ESCAPE            &trans                &trans          &trans      &trans       &trans      &trans  &trans                                                            &trans
+&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT                                &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LS(LG(N5))  &trans      &trans       &trans      &kp LESS_THAN     &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH
+&trans                &trans                &trans          &trans      &trans       &trans      &kp GREATER_THAN  &trans     &trans         &trans            &trans                &trans
+&kp ESCAPE            &trans                &trans          &trans      &trans       &trans      &trans            &trans                                                            &trans
             >;
         };
 
