@@ -86,14 +86,14 @@
 &kp TAB           &kp LCTRL  &kp LEFT_ALT  &lt 5 LANG1  &lt 1 LANGUAGE_2  &lt_to_layer_0 2 SPACE                &mt DELETE DELETE  &lt 3 SPACE                                         &kp MINUS
             >;
 
-            sensor-bindings = <&inc_dec_kp LS(RIGHT_ARROW) LS(LEFT_ARROW)>;
+            sensor-bindings = <&inc_dec_kp LA(LC(RIGHT_ARROW)) LA(LC(LEFT_ARROW))>;
         };
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT                                &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LS(LG(N5))  &trans      &trans       &trans      &kp LESS_THAN     &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH
-&trans                &trans                &trans          &trans      &trans       &trans      &kp GREATER_THAN  &trans     &trans         &trans            &trans                &trans
+&kp SINGLE_QUOTE      &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT                                &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LS(LG(N5))  &trans      &trans       &trans      &kp LESS_THAN     &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SLASH
+&trans                &trans                &trans          &trans      &trans       &trans      &kp GREATER_THAN  &trans     &trans         &trans            &trans                &kp SLASH
 &kp ESCAPE            &trans                &trans          &trans      &trans       &trans      &trans            &trans                                                            &trans
             >;
         };
