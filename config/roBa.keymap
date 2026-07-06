@@ -93,7 +93,7 @@
             bindings = <
 &kp SINGLE_QUOTE      &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT                                &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LS(LG(N5))  &trans      &trans       &trans      &kp LESS_THAN     &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SLASH
-&trans                &trans                &trans          &trans      &trans       &trans      &kp GREATER_THAN  &trans     &trans         &trans            &trans                &kp SLASH
+&trans                &trans                &trans          &trans      &trans       &trans      &kp GREATER_THAN  &trans     &trans         &trans            &trans                &kp BACKSLASH
 &kp ESCAPE            &trans                &trans          &trans      &trans       &trans      &trans            &trans                                                            &trans
             >;
         };
